@@ -24891,7 +24891,9 @@ __webpack_require__.r(__webpack_exports__);
 
 
 var Header = function Header() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Madeline Carr"));
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("header", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Madeline Carr")));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
@@ -24908,7 +24910,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var ImagePage = function ImagePage() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "container"
+    className: "wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "gridThree"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -24958,7 +24960,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var Footer = function Footer() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("footer", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    id: "footer"
+    className: "wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Copyright \xA9 2019 Madeline Carr \u2022 Richmond based Web Developer")));
 };
 

@@ -2,7 +2,7 @@ import React from 'react';
 
 const ImagePage = () => {
     return (
-        <div className="container">
+        <div className="wrapper">
             <div className="gridThree">
                 <div className="imgBox">
                     <img src="./images/TigerSq.jpg" alt="" />

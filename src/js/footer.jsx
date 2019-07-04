@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer>
-            <div id="footer">
+            <div className="wrapper">
                 <p>
                     Copyright © 2019 Madeline Carr • Richmond based Web
                     Developer
