@@ -5,7 +5,7 @@ import App from './app.js';
 const title = 'React is Working!';
 
 ReactDOM.render(
-    <div className="container">
+    <div>
         <App />
     </div>,
     document.getElementById('app')

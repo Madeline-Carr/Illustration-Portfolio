@@ -30,6 +30,7 @@
     "webpack-stream": "^5.2.1"
   },
   "dependencies": {
+    "@fortawesome/free-solid-svg-icons": "^5.9.0",
     "fstream": "^1.0.12",
     "gulp-autoprefixer": "^6.1.0",
     "gulp-clean-css": "^4.0.0",
@@ -39,6 +40,8 @@
     "minimatch": "^3.0.4",
     "react": "^16.8.6",
     "react-dom": "^16.8.6",
+    "react-fontawesome": "^1.6.1",
+    "react-native-svg": "^9.5.1",
     "tar": "^4.4.2"
   }
 }
