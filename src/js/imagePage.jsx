@@ -11,17 +11,17 @@ const ImagePage = () => {
                     <p>This is a illustration of a tiger.</p>
                 </div>
                 <div className="imgBox">
-                    <img src="./images/TigerSq.jpg" alt="" />
+                    <img src="./images/Night.png" alt="" />
                     <h2>Tiger</h2>
                     <p>This is a illustration of a tiger.</p>
                 </div>
                 <div className="imgBox">
-                    <img src="./images/TigerSq.jpg" alt="" />
+                    <img src="./images/Boom.png" alt="" />
                     <h2>Tiger</h2>
                     <p>This is a illustration of a tiger.</p>
                 </div>
                 <div className="imgBox">
-                    <img src="./images/TigerSq.jpg" alt="" />
+                    <img src="./images/Wolf.png" alt="" />
                     <h2>Tiger</h2>
                     <p>This is a illustration of a tiger.</p>
                 </div>
