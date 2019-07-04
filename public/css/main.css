@@ -27,14 +27,16 @@ header {
 
 .gridThree {
   display: grid;
-  grid-template-columns: 50% 50%; }
+  grid-template-columns: 30% 30% 30%;
+  grid-gap: 3%; }
 
 .imgBox {
   padding: 10px;
   margin: 10px;
-  text-align: center; }
+  text-align: center;
+  width: 100%; }
   .imgBox img {
-    width: 70%; }
+    width: 100%; }
 
 footer {
   color: white;
