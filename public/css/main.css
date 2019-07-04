@@ -14,6 +14,16 @@ header {
   width: 100%;
   text-align: center;
   padding: 25px 0 25px 0; }
+  header h1 {
+    padding: 10px;
+    font-size: 3em; }
+  header ul {
+    list-style: none;
+    padding: 0; }
+    header ul li {
+      display: inline;
+      padding: 20px;
+      font-size: 2em; }
 
 .gridThree {
   display: grid;
@@ -32,3 +42,7 @@ footer {
   width: 100%;
   text-align: center;
   padding: 25px 0 25px 0; }
+
+.icon {
+  padding: 10px 15px 0 15px;
+  font-size: 1.5em; }
