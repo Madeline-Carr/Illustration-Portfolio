@@ -11,9 +11,15 @@ import { faCoffee, faAddressBook } from '@fortawesome/free-solid-svg-icons';
 const Icons = () => {
     return (
         <div>
-            <FontAwesomeIcon className="icon" icon={faTwitter} />
-            <FontAwesomeIcon className="icon" icon={faInstagram} />
-            <FontAwesomeIcon className="icon" icon={faFacebook} />
+            <a href="#">
+                <FontAwesomeIcon className="icon" icon={faTwitter} />
+            </a>
+            <a href="#">
+                <FontAwesomeIcon className="icon" icon={faInstagram} />
+            </a>
+            <a href="#">
+                <FontAwesomeIcon className="icon" icon={faFacebook} />
+            </a>
         </div>
     );
 };
