@@ -23,6 +23,8 @@ header {
   padding: 10px;
   margin: 10px;
   text-align: center; }
+  .imgBox img {
+    width: 70%; }
 
 footer {
   color: white;
