@@ -4,6 +4,7 @@ body {
     color: white;
     background-color: $dark-gray;
     font-family: sans-serif;
+    margin: 0px;
 }
 
 .container {
@@ -27,6 +28,7 @@ header {
 .imgBox {
     padding: 10px;
     margin: 10px;
+    text-align: center;
 }
 
 footer {
