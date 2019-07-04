@@ -5,9 +5,15 @@ const NavBar = () => {
         <div>
             <div className="wrapper">
                 <ul>
-                    <li>Portfolio</li>
-                    <li>About Me</li>
-                    <li>Contact</li>
+                    <li>
+                        <a href="#">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="#">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#">Contact</a>
+                    </li>
                 </ul>
             </div>
             <Icons />

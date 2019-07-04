@@ -25,6 +25,12 @@ header {
       padding: 20px;
       font-size: 2em; }
 
+a {
+  text-decoration: none;
+  color: #a0aeff; }
+  a:hover {
+    color: #425eff; }
+
 .gridThree {
   display: grid;
   grid-template-columns: 30% 30% 30%;
