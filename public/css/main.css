@@ -14,6 +14,14 @@ header {
   text-align: center;
   padding: 25px 0 25px 0; }
 
+.gridThree {
+  display: grid;
+  grid-template-columns: 50% 50%; }
+
+.imgBox {
+  padding: 10px;
+  margin: 10px; }
+
 footer {
   color: white;
   background-color: black;
