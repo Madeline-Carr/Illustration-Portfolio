@@ -2,9 +2,9 @@ import React from 'react';
 import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import Header from './js/header';
-import ImagePage from './js/imagePage';
 import Footer from './js/footer';
 import Home from './js/home';
+import Animals from './js/animals';
 
 const App = () => {
     return (
@@ -14,7 +14,7 @@ const App = () => {
                 <main className="content">
                     <Switch>
                         <Route path="/image-page" component={Home} />
-                        <Route path="/about-us" component={Home} />
+                        <Route path="/about-me" component={Animals} />
                         <Route path="/contact" component={Home} />
                         <Route path="/menu" component={Home} />
                         <Route path="/home" component={Home} />

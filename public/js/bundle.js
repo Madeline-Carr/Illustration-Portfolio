@@ -24867,9 +24867,9 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(6);
 /* harmony import */ var react_dom__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(react_dom__WEBPACK_IMPORTED_MODULE_2__);
 /* harmony import */ var _js_header__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(36);
-/* harmony import */ var _js_imagePage__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(46);
-/* harmony import */ var _js_footer__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(47);
-/* harmony import */ var _js_home__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(48);
+/* harmony import */ var _js_footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(46);
+/* harmony import */ var _js_home__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(47);
+/* harmony import */ var _js_animals__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(48);
 
 
 
@@ -24883,19 +24883,19 @@ var App = function App() {
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/image-page",
-    component: _js_home__WEBPACK_IMPORTED_MODULE_6__["default"]
+    component: _js_home__WEBPACK_IMPORTED_MODULE_5__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-    path: "/about-us",
-    component: _js_home__WEBPACK_IMPORTED_MODULE_6__["default"]
+    path: "/about-me",
+    component: _js_animals__WEBPACK_IMPORTED_MODULE_6__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/contact",
-    component: _js_home__WEBPACK_IMPORTED_MODULE_6__["default"]
+    component: _js_home__WEBPACK_IMPORTED_MODULE_5__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/menu",
-    component: _js_home__WEBPACK_IMPORTED_MODULE_6__["default"]
+    component: _js_home__WEBPACK_IMPORTED_MODULE_5__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/home",
-    component: _js_home__WEBPACK_IMPORTED_MODULE_6__["default"]
+    component: _js_home__WEBPACK_IMPORTED_MODULE_5__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Redirect"], {
     exact: true,
     from: "/",
@@ -24905,8 +24905,8 @@ var App = function App() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     exact: true,
     path: "/",
-    component: _js_home__WEBPACK_IMPORTED_MODULE_6__["default"]
-  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_footer__WEBPACK_IMPORTED_MODULE_5__["default"], null)));
+    component: _js_home__WEBPACK_IMPORTED_MODULE_5__["default"]
+  }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_footer__WEBPACK_IMPORTED_MODULE_4__["default"], null)));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (App);
@@ -28902,7 +28902,7 @@ var NavBar = function NavBar() {
     href: "#",
     className: "active"
   }, "Home"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
-    to: "/portfolio"
+    to: "/image-page"
   }, "Portfolio"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
     to: "/about-me"
   }, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
@@ -41962,56 +41962,6 @@ var _iconsCache = {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
-
-
-var ImagePage = function ImagePage() {
-  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "wrapper"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "gridThree"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.jpg",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/Night.png",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/Boom.jpg",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/Wolf.png",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.jpg",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.jpg",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger."))));
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (ImagePage);
-
-/***/ }),
-/* 47 */
-/***/ (function(module, __webpack_exports__, __webpack_require__) {
-
-"use strict";
-__webpack_require__.r(__webpack_exports__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var _icons__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(38);
 
 
@@ -42025,7 +41975,7 @@ var Footer = function Footer() {
 /* harmony default export */ __webpack_exports__["default"] = (Footer);
 
 /***/ }),
-/* 48 */
+/* 47 */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42073,6 +42023,56 @@ var Home = function Home() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
+
+/***/ }),
+/* 48 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var ImagePage = function ImagePage() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "gridThree"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/TigerSq.jpg",
+    alt: ""
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/TigerSq.png",
+    alt: ""
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/TigerSq.jpg",
+    alt: ""
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/TigerSq.png",
+    alt: ""
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/TigerSq.jpg",
+    alt: ""
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/TigerSq.jpg",
+    alt: ""
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger."))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (ImagePage);
 
 /***/ })
 /******/ ]);

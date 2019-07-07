@@ -10,7 +10,7 @@ const NavBar = () => {
                     <Link href="#" className="active">
                         Home
                     </Link>
-                    <Link to="/portfolio">Portfolio</Link>
+                    <Link to="/image-page">Portfolio</Link>
                     <Link to="/about-me">About Me</Link>
                     <Link to="/contact">Contact</Link>
                 </nav>

@@ -10,20 +10,21 @@ body {
 
 header {
   color: white;
-  background-color: #333;
+  background-color: #222;
   width: 100%;
   text-align: center;
   padding: 25px 0 25px 0; }
   header h1 {
     padding: 10px;
     font-size: 3em; }
-  header ul {
+  header nav {
     list-style: none;
-    padding: 0; }
-    header ul li {
+    padding: 0;
+    margin-bottom: 10px; }
+    header nav a {
       display: inline;
       padding: 20px;
-      font-size: 2em; }
+      font-size: 20px; }
 
 a {
   text-decoration: none;
