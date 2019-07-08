@@ -14,7 +14,7 @@ const Icons = () => {
             <a href="#">
                 <FontAwesomeIcon className="icon" icon={faTwitter} />
             </a>
-            <a href="#">
+            <a href="https://www.instagram.com/madelinecarrart/">
                 <FontAwesomeIcon className="icon" icon={faInstagram} />
             </a>
             <a href="#">
