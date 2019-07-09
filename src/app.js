@@ -5,6 +5,7 @@ import Header from './js/header';
 import Footer from './js/footer';
 import Home from './js/home';
 import Animals from './js/animals';
+import Contact from './js/contact';
 
 const App = () => {
     return (
@@ -15,7 +16,7 @@ const App = () => {
                     <Switch>
                         <Route path="/image-page" component={Home} />
                         <Route path="/about-me" component={Animals} />
-                        <Route path="/contact" component={Home} />
+                        <Route path="/contact" component={Contact} />
                         <Route path="/menu" component={Home} />
                         <Route path="/home" component={Home} />
                         <Redirect exact from="/" to="/home" />

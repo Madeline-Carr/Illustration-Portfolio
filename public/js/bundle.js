@@ -24870,6 +24870,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_footer__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(46);
 /* harmony import */ var _js_home__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(47);
 /* harmony import */ var _js_animals__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(48);
+/* harmony import */ var _js_contact__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(49);
+
 
 
 
@@ -24889,7 +24891,7 @@ var App = function App() {
     component: _js_animals__WEBPACK_IMPORTED_MODULE_6__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/contact",
-    component: _js_home__WEBPACK_IMPORTED_MODULE_5__["default"]
+    component: _js_contact__WEBPACK_IMPORTED_MODULE_7__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/menu",
     component: _js_home__WEBPACK_IMPORTED_MODULE_5__["default"]
@@ -42073,6 +42075,24 @@ var ImagePage = function ImagePage() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ImagePage);
+
+/***/ }),
+/* 49 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var Contact = function Contact() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "To discuss a future project, contact me:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Email", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " madelinencarr@Gmail.com")));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (Contact);
 
 /***/ })
 /******/ ]);
