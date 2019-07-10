@@ -7,10 +7,9 @@ const NavBar = () => {
         <div>
             <div className="wrapper">
                 <nav className="nav">
-                    <Link href="#" className="active">
-                        Home
+                    <Link to="/image-page" className="active">
+                        Portfolio
                     </Link>
-                    <Link to="/image-page">Portfolio</Link>
                     <Link to="/about-me">About Me</Link>
                     <Link to="/contact">Contact</Link>
                 </nav>
