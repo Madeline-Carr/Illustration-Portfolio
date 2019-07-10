@@ -1,5 +1,5 @@
 import React from 'react';
-import { BrowserRouter, Route, Redirect, Switch } from 'react-router-dom';
+import { HashRouter, Route, Redirect, Switch } from 'react-router-dom';
 import ReactDOM from 'react-dom';
 import Header from './js/header';
 import Footer from './js/footer';
@@ -10,7 +10,7 @@ import Contact from './js/contact';
 const App = () => {
     return (
         <React.Fragment>
-            <BrowserRouter>
+            <HashRouter>
                 <Header />
                 <main className="content">
                     <Switch>
@@ -23,7 +23,7 @@ const App = () => {
                     </Switch>
                 </main>
                 <Footer />
-            </BrowserRouter>
+            </HashRouter>
         </React.Fragment>
     );
 };
