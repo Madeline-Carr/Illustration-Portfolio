@@ -8,8 +8,11 @@ const Contact = () => {
 
                 <p>
                     To discuss a future project, contact me:
-                    <br /> Email:
-                    <br /> madelinencarr@Gmail.com
+                    <h3> Email:</h3>
+                    madelinencarr@Gmail.com
+                    <br />
+                    <h3> Location:</h3>
+                    <p>Richmond</p>
                 </p>
             </div>
         </div>
