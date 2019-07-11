@@ -42081,7 +42081,7 @@ __webpack_require__.r(__webpack_exports__);
 var Contact = function Contact() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper center"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "To discuss a future project, contact me:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " Email:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), " madelinencarr@Gmail.com")));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h1", null, "Contact"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "To discuss a future project, contact me:", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Email:"), "madelinencarr@Gmail.com", react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("br", null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, " Location:"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Richmond"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Contact);
