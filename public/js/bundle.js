@@ -42003,16 +42003,6 @@ var Home = function Home() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/Wolf.png",
     alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.jpg",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.jpg",
-    alt: ""
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger."))));
 };
 
@@ -42038,32 +42028,7 @@ var ImagePage = function ImagePage() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/TigerSq.jpg",
     alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.png",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.jpg",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.png",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.jpg",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-    className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.jpg",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger."))));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger."))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (ImagePage);
