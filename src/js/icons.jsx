@@ -2,8 +2,8 @@ import React from 'react';
 
 import {
     faInstagram,
-    faTwitter,
-    faFacebook,
+    faArtstation,
+    faGithub,
 } from '@fortawesome/free-brands-svg-icons';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faCoffee, faAddressBook } from '@fortawesome/free-solid-svg-icons';
@@ -11,14 +11,14 @@ import { faCoffee, faAddressBook } from '@fortawesome/free-solid-svg-icons';
 const Icons = () => {
     return (
         <div>
-            <a href="#">
-                <FontAwesomeIcon className="icon" icon={faTwitter} />
-            </a>
             <a href="https://www.instagram.com/madelinecarrart/">
                 <FontAwesomeIcon className="icon" icon={faInstagram} />
             </a>
-            <a href="#">
-                <FontAwesomeIcon className="icon" icon={faFacebook} />
+            <a href="https://github.com/Madeline-Carr">
+                <FontAwesomeIcon className="icon" icon={faGithub} />
+            </a>
+            <a href="https://madelinecarr.artstation.com/">
+                <FontAwesomeIcon className="icon" icon={faArtstation} />
             </a>
         </div>
     );
