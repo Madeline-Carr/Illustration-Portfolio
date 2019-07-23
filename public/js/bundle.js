@@ -24888,6 +24888,9 @@ var App = function App() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["HashRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_header__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/animals",
+    component: _js_animals__WEBPACK_IMPORTED_MODULE_6__["default"]
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/history",
     component: _js_history__WEBPACK_IMPORTED_MODULE_8__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
@@ -24908,7 +24911,7 @@ var App = function App() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     exact: true,
     path: "/",
-    component: _js_animals__WEBPACK_IMPORTED_MODULE_6__["default"]
+    component: _js_home__WEBPACK_IMPORTED_MODULE_5__["default"]
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_footer__WEBPACK_IMPORTED_MODULE_4__["default"], null)));
 };
 
@@ -35267,20 +35270,22 @@ var Footer = function Footer() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
 
 
 var Home = function Home() {
+  var _React$createElement;
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "gridThree"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/AnimalCover.jpg",
-    className: "topicImage",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Animals"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", (_React$createElement = {
+    src: "./images/AnimalCover.jpg"
+  }, _defineProperty(_React$createElement, "src", "./images/AnimalCover.jpg"), _defineProperty(_React$createElement, "className", "topicImage"), _defineProperty(_React$createElement, "alt", ""), _React$createElement)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Animals"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "These are illustrations of animals done in Adobe Illustrator.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/HistoryCover.png",
@@ -35321,7 +35326,26 @@ var ImagePage = function ImagePage() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.jpg",
+    src: "./images/Animals/Tiger.png",
+    className: "topicImage",
+    alt: ""
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/Animals/Zebra.png",
+    className: "topicImage",
+    alt: ""
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/Animals/Lion.png",
+    className: "topicImage",
+    alt: ""
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/Animals/Snake.png",
+    className: "topicImage",
     alt: ""
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger."))));
 };

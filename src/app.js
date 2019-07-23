@@ -16,13 +16,14 @@ const App = () => {
                 <Header />
                 <main className="content">
                     <Switch>
+                        <Route path="/animals" component={Animals} />
                         <Route path="/history" component={History} />
                         <Route path="/about-me" component={AboutMe} />
                         <Route path="/contact" component={Contact} />
                         <Route path="/home" component={Home} />
                         <Redirect exact from="/" to="/home" />
                         <Redirect to="/home" />
-                        <Route exact path="/" component={Animals} />
+                        <Route exact path="/" component={Home} />
                     </Switch>
                 </main>
                 <Footer />

@@ -7,13 +7,16 @@ const Home = () => {
                 <div className="imgBox">
                     <img
                         src="./images/AnimalCover.jpg"
+                        src="./images/AnimalCover.jpg"
                         className="topicImage"
                         alt=""
                     />
-
                     <h2>Animals</h2>
                     <h3>2018</h3>
-                    <p>This is a illustration of a tiger.</p>
+                    <p>
+                        These are illustrations of animals done in Adobe
+                        Illustrator.
+                    </p>
                 </div>
                 <div className="imgBox">
                     <img
