@@ -35400,6 +35400,7 @@ var AboutMe = function AboutMe() {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/MyIcon.jpg",
+    className: "topicImage",
     alt: ""
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"

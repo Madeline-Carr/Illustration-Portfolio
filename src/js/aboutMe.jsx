@@ -5,7 +5,11 @@ const AboutMe = () => {
         <div className="wrapper">
             <div className="imgAndPic">
                 <div className="imgBox">
-                    <img src="./images/MyIcon.jpg" alt="" />
+                    <img
+                        src="./images/MyIcon.jpg"
+                        className="topicImage"
+                        alt=""
+                    />
                 </div>
                 <div className="imgBox">
                     <h2>About Me</h2>
