@@ -6,7 +6,7 @@ const Home = () => {
             <div className="gridThree">
                 <div className="imgBox">
                     <img
-                        src="./images/TigerSq.jpg"
+                        src="./images/AnimalCover.jpg"
                         className="topicImage"
                         alt=""
                     />
