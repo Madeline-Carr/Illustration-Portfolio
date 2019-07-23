@@ -56,6 +56,12 @@ a {
     grid-gap: 5%;
 }
 
+.imgAndPic {
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-gap: 5%;
+}
+
 .imgBox {
     text-align: center;
     width: 100%;

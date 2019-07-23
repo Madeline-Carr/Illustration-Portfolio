@@ -7,6 +7,7 @@ import Home from './js/home';
 import Animals from './js/animals';
 import Contact from './js/contact';
 import History from './js/history';
+import AboutMe from './js/aboutMe';
 
 const App = () => {
     return (
@@ -16,7 +17,7 @@ const App = () => {
                 <main className="content">
                     <Switch>
                         <Route path="/history" component={History} />
-                        <Route path="/about-me" component={Animals} />
+                        <Route path="/about-me" component={AboutMe} />
                         <Route path="/contact" component={Contact} />
                         <Route path="/home" component={Home} />
                         <Redirect exact from="/" to="/home" />

@@ -24872,6 +24872,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _js_animals__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(47);
 /* harmony import */ var _js_contact__WEBPACK_IMPORTED_MODULE_7__ = __webpack_require__(48);
 /* harmony import */ var _js_history__WEBPACK_IMPORTED_MODULE_8__ = __webpack_require__(49);
+/* harmony import */ var _js_aboutMe__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(50);
+
 
 
 
@@ -24890,7 +24892,7 @@ var App = function App() {
     component: _js_history__WEBPACK_IMPORTED_MODULE_8__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/about-me",
-    component: _js_animals__WEBPACK_IMPORTED_MODULE_6__["default"]
+    component: _js_aboutMe__WEBPACK_IMPORTED_MODULE_9__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/contact",
     component: _js_contact__WEBPACK_IMPORTED_MODULE_7__["default"]
@@ -35378,6 +35380,33 @@ var History = function History() {
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (History);
+
+/***/ }),
+/* 50 */
+/***/ (function(module, __webpack_exports__, __webpack_require__) {
+
+"use strict";
+__webpack_require__.r(__webpack_exports__);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+
+
+var AboutMe = function AboutMe() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgAndPic"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/MyIcon.jpg",
+    alt: ""
+  })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero illum eligendi soluta explicabo consectetur accusantium aliquid dolorum nostrum dignissimos, beatae maxime nemo enim et eaque id, iste dolores aliquam molestias."))));
+};
+
+/* harmony default export */ __webpack_exports__["default"] = (AboutMe);
 
 /***/ })
 /******/ ]);
