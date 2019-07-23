@@ -1,4 +1,21 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 868px) {
+    /* For mobile phones: */
+
+    .gridThree {
+        width: 100%;
+        margin: 0 auto;
+        grid-template-columns: 50% 50%;
+        grid-gap: 10%;
+    }
+
+    .imgAndPic {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 5%;
+    }
+}
+
+@media only screen and (max-width: 668px) {
     /* For mobile phones: */
 
     .gridThree {
@@ -6,5 +23,11 @@
         margin: 0 auto;
         grid-template-columns: 100%;
         grid-gap: 0%;
+    }
+
+    .imgAndPic {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-gap: 5%;
     }
 }

@@ -35403,7 +35403,7 @@ var AboutMe = function AboutMe() {
     alt: ""
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Lorem ipsum dolor sit amet consectetur, adipisicing elit. Libero illum eligendi soluta explicabo consectetur accusantium aliquid dolorum nostrum dignissimos, beatae maxime nemo enim et eaque id, iste dolores aliquam molestias."))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hello! My name is Madeline Carr, I am a graduate of Virgina Commonwealth University. I like to experiment with different styles of illustration in order to improve my understanding of the world. Most of my work is vector illustrations which I like because it helps me think about shapes. I am working to become a web developer. I hope you enjoy my portfolio!"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (AboutMe);
