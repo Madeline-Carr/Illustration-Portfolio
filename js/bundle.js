@@ -98,7 +98,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var title = 'React is Working!';
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_app_js__WEBPACK_IMPORTED_MODULE_2__["default"], null)), document.getElementById('app'));
 
 /***/ }),
@@ -24888,6 +24887,9 @@ var App = function App() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["HashRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_header__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
+    path: "/animals",
+    component: _js_animals__WEBPACK_IMPORTED_MODULE_6__["default"]
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/history",
     component: _js_history__WEBPACK_IMPORTED_MODULE_8__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
@@ -24908,7 +24910,7 @@ var App = function App() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     exact: true,
     path: "/",
-    component: _js_animals__WEBPACK_IMPORTED_MODULE_6__["default"]
+    component: _js_home__WEBPACK_IMPORTED_MODULE_5__["default"]
   }))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_footer__WEBPACK_IMPORTED_MODULE_4__["default"], null)));
 };
 
@@ -35267,38 +35269,46 @@ var Footer = function Footer() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(15);
+function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 
 var Home = function Home() {
+  var _React$createElement;
+
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "gridThree"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/AnimalCover.jpg",
-    className: "topicImage",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Animals"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/animals"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", (_React$createElement = {
+    src: "./images/AnimalCover.jpg"
+  }, _defineProperty(_React$createElement, "src", "./images/AnimalCover.jpg"), _defineProperty(_React$createElement, "className", "topicImage"), _defineProperty(_React$createElement, "alt", "Tiger"), _React$createElement)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Animals"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018-2019"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/history"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/HistoryCover.png",
     className: "topicImage",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Art History Studies"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    alt: "Nighthawks"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Art History Studies"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/VectorCover.png",
     className: "topicImage",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Vector Illustration"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    alt: "Mermaid Family"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Vector Illustration"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018-2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/TraditionalCover.png",
     className: "topicImage",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Traditional Art"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "These are illustrations."))));
+    alt: "Girl in Wolf Costume"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Traditional Art"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018-2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Coming Soon"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -35313,7 +35323,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var ImagePage = function ImagePage() {
+var Animals = function Animals() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -35321,12 +35331,31 @@ var ImagePage = function ImagePage() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/TigerSq.jpg",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger."))));
+    src: "./images/Animals/Tiger.png",
+    className: "topicImage",
+    alt: "Tiger"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Tiger")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/Animals/Zebra.png",
+    className: "topicImage",
+    alt: "Zebra"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Zebra")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/Animals/Lion.png",
+    className: "topicImage",
+    alt: "Lion"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Lion")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
+    src: "./images/Animals/Snake.png",
+    className: "topicImage",
+    alt: "Snake"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Snake"))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (ImagePage);
+/* harmony default export */ __webpack_exports__["default"] = (Animals);
 
 /***/ }),
 /* 48 */
@@ -35365,18 +35394,18 @@ var History = function History() {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/history/Woman.png",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Woman"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    alt: "Venus of Willendorf\n"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Venus of Willendorf")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/history/EarringGirl.png",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Woman"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    alt: "Girl with a Pearl Earring"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Girl with a Pearl Earring")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/history/NightHawks.png",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Woman"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger."))));
+    alt: "Nighthawks"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nighthawks"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (History);
@@ -35401,7 +35430,7 @@ var AboutMe = function AboutMe() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/MyIcon.jpg",
     className: "topicImage",
-    alt: ""
+    alt: "Portrait Icon"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hello! My name is Madeline Carr, I am a graduate of Virgina Commonwealth University. I like to experiment with different styles of illustration in order to improve my understanding of the world. Most of my work is vector illustrations which I like because it helps me think about shapes. I am working to become a web developer. I hope you enjoy my portfolio!"))));
