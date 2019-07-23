@@ -16,7 +16,7 @@ const Home = () => {
                 </div>
                 <div className="imgBox">
                     <img
-                        src="./images/Night.png"
+                        src="./images/HistoryCover.png"
                         className="topicImage"
                         alt=""
                     />
@@ -26,7 +26,7 @@ const Home = () => {
                 </div>
                 <div className="imgBox">
                     <img
-                        src="./images/Boom.jpg"
+                        src="./images/VectorCover.png"
                         className="topicImage"
                         alt=""
                     />
@@ -42,6 +42,16 @@ const Home = () => {
                         alt=""
                     />
                     <h2>Logos</h2>
+                    <h3>2018</h3>
+                    <p>This is a illustration of a tiger.</p>
+                </div>
+                <div className="imgBox">
+                    <img
+                        src="./images/TraditionalCover.png"
+                        className="topicImage"
+                        alt=""
+                    />
+                    <h2>Traditional Art</h2>
                     <h3>2018</h3>
                     <p>This is a illustration of a tiger.</p>
                 </div>
