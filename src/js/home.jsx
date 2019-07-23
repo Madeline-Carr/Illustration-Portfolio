@@ -1,5 +1,4 @@
 import React from 'react';
-import Animals from './animals';
 import { Link } from 'react-router-dom';
 
 const Home = () => {
@@ -15,18 +14,20 @@ const Home = () => {
                             alt="Tiger"
                         />
                         <h2>Animals</h2>
-                        <h3>2018</h3>
+                        <h3>2018-2019</h3>
                     </Link>
                 </div>
 
                 <div className="imgBox">
-                    <img
-                        src="./images/HistoryCover.png"
-                        className="topicImage"
-                        alt="Nighthawks"
-                    />
-                    <h2>Art History Studies</h2>
-                    <h3>2018</h3>
+                    <Link to="/history">
+                        <img
+                            src="./images/HistoryCover.png"
+                            className="topicImage"
+                            alt="Nighthawks"
+                        />
+                        <h2>Art History Studies</h2>
+                        <h3>2018</h3>
+                    </Link>
                 </div>
                 <div className="imgBox">
                     <img
@@ -35,7 +36,7 @@ const Home = () => {
                         alt="Mermaid Family"
                     />
                     <h2>Vector Illustration</h2>
-                    <h3>2018</h3>
+                    <h3>2018-2019</h3>
                 </div>
 
                 <div className="imgBox">
@@ -45,7 +46,8 @@ const Home = () => {
                         alt="Girl in Wolf Costume"
                     />
                     <h2>Traditional Art</h2>
-                    <h3>2018</h3>
+                    <h3>2018-2019</h3>
+                    <p>Coming Soon</p>
                 </div>
             </div>
         </div>
