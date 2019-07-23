@@ -8,7 +8,7 @@ const AboutMe = () => {
                     <img
                         src="./images/MyIcon.jpg"
                         className="topicImage"
-                        alt=""
+                        alt="Portrait Icon"
                     />
                 </div>
                 <div className="imgBox">

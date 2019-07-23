@@ -5,22 +5,26 @@ const History = () => {
         <div className="wrapper">
             <div className="gridOne">
                 <div className="imgBox">
-                    <img src="./images/history/Woman.png" alt="" />
-                    <h2>Woman</h2>
-                    <h3>2018</h3>
-                    <p>This is a illustration of a tiger.</p>
+                    <img
+                        src="./images/history/Woman.png"
+                        alt="Venus of Willendorf
+"
+                    />
+                    <h2>Venus of Willendorf</h2>
                 </div>
                 <div className="imgBox">
-                    <img src="./images/history/EarringGirl.png" alt="" />
-                    <h2>Woman</h2>
-                    <h3>2018</h3>
-                    <p>This is a illustration of a tiger.</p>
+                    <img
+                        src="./images/history/EarringGirl.png"
+                        alt="Girl with a Pearl Earring"
+                    />
+                    <h2>Girl with a Pearl Earring</h2>
                 </div>
                 <div className="imgBox">
-                    <img src="./images/history/NightHawks.png" alt="" />
-                    <h2>Woman</h2>
-                    <h3>2018</h3>
-                    <p>This is a illustration of a tiger.</p>
+                    <img
+                        src="./images/history/NightHawks.png"
+                        alt="Nighthawks"
+                    />
+                    <h2>Nighthawks</h2>
                 </div>
             </div>
         </div>

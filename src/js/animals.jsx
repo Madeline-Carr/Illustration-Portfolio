@@ -8,41 +8,33 @@ const ImagePage = () => {
                     <img
                         src="./images/Animals/Tiger.png"
                         className="topicImage"
-                        alt=""
+                        alt="Tiger"
                     />
                     <h2>Tiger</h2>
-                    <h3>2018</h3>
-                    <p>This is a illustration of a tiger.</p>
                 </div>
                 <div className="imgBox">
                     <img
                         src="./images/Animals/Zebra.png"
                         className="topicImage"
-                        alt=""
+                        alt="Zebra"
                     />
-                    <h2>Tiger</h2>
-                    <h3>2018</h3>
-                    <p>This is a illustration of a tiger.</p>
+                    <h2>Zebra</h2>
                 </div>
                 <div className="imgBox">
                     <img
                         src="./images/Animals/Lion.png"
                         className="topicImage"
-                        alt=""
+                        alt="Lion"
                     />
-                    <h2>Tiger</h2>
-                    <h3>2018</h3>
-                    <p>This is a illustration of a tiger.</p>
+                    <h2>Lion</h2>
                 </div>
                 <div className="imgBox">
                     <img
                         src="./images/Animals/Snake.png"
                         className="topicImage"
-                        alt=""
+                        alt="Snake"
                     />
-                    <h2>Tiger</h2>
-                    <h3>2018</h3>
-                    <p>This is a illustration of a tiger.</p>
+                    <h2>Snake</h2>
                 </div>
             </div>
         </div>
