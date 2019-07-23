@@ -46,7 +46,10 @@ a {
         color: #01978b;
     }
 }
-
+.gridOne {
+    display: grid;
+    grid-template-columns: 100%;
+}
 .gridThree {
     display: grid;
     grid-template-columns: 30% 30% 30%;

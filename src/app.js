@@ -6,6 +6,7 @@ import Footer from './js/footer';
 import Home from './js/home';
 import Animals from './js/animals';
 import Contact from './js/contact';
+import History from './js/history';
 
 const App = () => {
     return (
@@ -14,6 +15,7 @@ const App = () => {
                 <Header />
                 <main className="content">
                     <Switch>
+                        <Route path="/history" component={History} />
                         <Route path="/about-me" component={Animals} />
                         <Route path="/contact" component={Contact} />
                         <Route path="/home" component={Home} />

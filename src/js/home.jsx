@@ -10,6 +10,7 @@ const Home = () => {
                         className="topicImage"
                         alt=""
                     />
+
                     <h2>Animals</h2>
                     <h3>2018</h3>
                     <p>This is a illustration of a tiger.</p>
