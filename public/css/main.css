@@ -62,3 +62,11 @@ footer {
 
 .center {
   text-align: center; }
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .gridThree {
+    width: 80%;
+    margin: 0 auto;
+    grid-template-columns: 100%;
+    grid-gap: 0%; } }
