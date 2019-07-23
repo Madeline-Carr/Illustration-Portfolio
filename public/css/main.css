@@ -14,7 +14,7 @@ header {
   width: 100%;
   text-align: center;
   padding: 25px 0 25px 0;
-  margin-bottom: 10px; }
+  margin-bottom: 25px; }
   header h1 {
     padding: 10px;
     font-size: 3em; }
@@ -36,7 +36,7 @@ a {
 .gridThree {
   display: grid;
   grid-template-columns: 30% 30% 30%;
-  grid-gap: 3%; }
+  grid-gap: 5%; }
 
 .imgBox {
   text-align: center;
@@ -50,7 +50,7 @@ footer {
   width: 100%;
   text-align: center;
   padding: 25px 0 25px 0;
-  margin-top: 25px; }
+  margin-top: 55px; }
 
 .topicImage {
   border-radius: 5px; }
