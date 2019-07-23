@@ -94,4 +94,11 @@ footer {
   .imgAndPic {
     display: grid;
     grid-template-columns: 100%;
-    grid-gap: 5%; } }
+    grid-gap: 5%; }
+  header h1 {
+    font-size: 2em;
+    margin: 0; }
+  header nav a {
+    display: block;
+    padding: 7px;
+    font-size: 16px; } }
