@@ -98,7 +98,6 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var title = 'React is Working!';
 react_dom__WEBPACK_IMPORTED_MODULE_1___default.a.render(react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_app_js__WEBPACK_IMPORTED_MODULE_2__["default"], null)), document.getElementById('app'));
 
 /***/ }),
@@ -35270,7 +35269,11 @@ var Footer = function Footer() {
 __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(1);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _animals__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(47);
+/* harmony import */ var react_router_dom__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(15);
 function _defineProperty(obj, key, value) { if (key in obj) { Object.defineProperty(obj, key, { value: value, enumerable: true, configurable: true, writable: true }); } else { obj[key] = value; } return obj; }
+
+
 
 
 
@@ -35283,27 +35286,29 @@ var Home = function Home() {
     className: "gridThree"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_2__["Link"], {
+    to: "/animals"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", (_React$createElement = {
     src: "./images/AnimalCover.jpg"
-  }, _defineProperty(_React$createElement, "src", "./images/AnimalCover.jpg"), _defineProperty(_React$createElement, "className", "topicImage"), _defineProperty(_React$createElement, "alt", ""), _React$createElement)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Animals"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "These are illustrations of animals done in Adobe Illustrator.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }, _defineProperty(_React$createElement, "src", "./images/AnimalCover.jpg"), _defineProperty(_React$createElement, "className", "topicImage"), _defineProperty(_React$createElement, "alt", "Tiger"), _React$createElement)), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Animals"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/HistoryCover.png",
     className: "topicImage",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Art History Studies"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    alt: "Nighthawks"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Art History Studies"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/VectorCover.png",
     className: "topicImage",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Vector Illustration"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "This is a illustration of a tiger.")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    alt: "Mermaid Family"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Vector Illustration"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/TraditionalCover.png",
     className: "topicImage",
-    alt: ""
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Traditional Art"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "These are illustrations."))));
+    alt: "Girl in Wolf Costume"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Traditional Art"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -35318,7 +35323,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
 
-var ImagePage = function ImagePage() {
+var Animals = function Animals() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
@@ -35350,7 +35355,7 @@ var ImagePage = function ImagePage() {
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Snake"))));
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (ImagePage);
+/* harmony default export */ __webpack_exports__["default"] = (Animals);
 
 /***/ }),
 /* 48 */

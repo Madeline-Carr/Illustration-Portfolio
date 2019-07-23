@@ -1,54 +1,51 @@
 import React from 'react';
+import Animals from './animals';
+import { Link } from 'react-router-dom';
 
 const Home = () => {
     return (
         <div className="wrapper">
             <div className="gridThree">
                 <div className="imgBox">
-                    <img
-                        src="./images/AnimalCover.jpg"
-                        src="./images/AnimalCover.jpg"
-                        className="topicImage"
-                        alt=""
-                    />
-                    <h2>Animals</h2>
-                    <h3>2018</h3>
-                    <p>
-                        These are illustrations of animals done in Adobe
-                        Illustrator.
-                    </p>
+                    <Link to="/animals">
+                        <img
+                            src="./images/AnimalCover.jpg"
+                            src="./images/AnimalCover.jpg"
+                            className="topicImage"
+                            alt="Tiger"
+                        />
+                        <h2>Animals</h2>
+                        <h3>2018</h3>
+                    </Link>
                 </div>
+
                 <div className="imgBox">
                     <img
                         src="./images/HistoryCover.png"
                         className="topicImage"
-                        alt=""
+                        alt="Nighthawks"
                     />
                     <h2>Art History Studies</h2>
                     <h3>2018</h3>
-                    <p>This is a illustration of a tiger.</p>
                 </div>
                 <div className="imgBox">
                     <img
                         src="./images/VectorCover.png"
                         className="topicImage"
-                        alt=""
+                        alt="Mermaid Family"
                     />
                     <h2>Vector Illustration</h2>
                     <h3>2018</h3>
-
-                    <p>This is a illustration of a tiger.</p>
                 </div>
 
                 <div className="imgBox">
                     <img
                         src="./images/TraditionalCover.png"
                         className="topicImage"
-                        alt=""
+                        alt="Girl in Wolf Costume"
                     />
                     <h2>Traditional Art</h2>
                     <h3>2018</h3>
-                    <p>These are illustrations.</p>
                 </div>
             </div>
         </div>

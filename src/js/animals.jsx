@@ -1,6 +1,6 @@
 import React from 'react';
 
-const ImagePage = () => {
+const Animals = () => {
     return (
         <div className="wrapper">
             <div className="gridThree">
@@ -41,4 +41,4 @@ const ImagePage = () => {
     );
 };
 
-export default ImagePage;
+export default Animals;
