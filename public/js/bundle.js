@@ -35389,23 +35389,25 @@ var History = function History() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "gridOne"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/history/Woman.png",
+    src: "./images/History/Woman.png",
     alt: "Venus of Willendorf\n"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Venus of Willendorf")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/history/EarringGirl.png",
+    src: "./images/History/EarringGirl.png",
     alt: "Girl with a Pearl Earring"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Girl with a Pearl Earring")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/history/NightHawks.png",
+    src: "./images/History/NightHawks.png",
     alt: "Nighthawks"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nighthawks"))));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nighthawks")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (History);

@@ -8,7 +8,7 @@
         "start": "webpack-dev-server --config ./webpack.config.js --mode development",
         "format": "prettier --write \"src/**/*.js\"",
         "predeploy": "npm run format",
-        "deploy": "gh-pages -d public"
+        "deploy": "gh-pages -d public" 
     },
     "author": "",
     "license": "ISC",
