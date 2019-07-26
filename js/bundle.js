@@ -35389,6 +35389,8 @@ var History = function History() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "wrapper"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+    className: "wrapper"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "gridOne"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
@@ -35405,7 +35407,7 @@ var History = function History() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/History/NightHawks.png",
     alt: "Nighthawks"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nighthawks"))));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Nighthawks")))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (History);
