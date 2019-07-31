@@ -35303,11 +35303,13 @@ var Home = function Home() {
     alt: "Nighthawks"
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Art History Studies"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Link"], {
+    to: "/vectorArt"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/VectorCover.png",
     className: "topicImage",
     alt: "Mermaid Family"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Vector Illustration"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018-2019")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Vector Illustration"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018-2019"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
     src: "./images/TraditionalCover.png",

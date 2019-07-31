@@ -30,13 +30,15 @@ const Home = () => {
                     </Link>
                 </div>
                 <div className="imgBox">
-                    <img
-                        src="./images/VectorCover.png"
-                        className="topicImage"
-                        alt="Mermaid Family"
-                    />
-                    <h2>Vector Illustration</h2>
-                    <h3>2018-2019</h3>
+                    <Link to="/vectorArt">
+                        <img
+                            src="./images/VectorCover.png"
+                            className="topicImage"
+                            alt="Mermaid Family"
+                        />
+                        <h2>Vector Illustration</h2>
+                        <h3>2018-2019</h3>
+                    </Link>
                 </div>
 
                 <div className="imgBox">
