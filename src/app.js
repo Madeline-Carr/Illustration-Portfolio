@@ -8,6 +8,7 @@ import Animals from './js/animals';
 import Contact from './js/contact';
 import History from './js/history';
 import AboutMe from './js/aboutMe';
+import VectorArt from './js/vectorArt';
 
 const App = () => {
     return (
@@ -16,6 +17,7 @@ const App = () => {
                 <Header />
                 <main className="content">
                     <Switch>
+                        <Route path="/vectorArt" component={VectorArt} />
                         <Route path="/animals" component={Animals} />
                         <Route path="/history" component={History} />
                         <Route path="/about-me" component={AboutMe} />

@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Animals = () => {
+const VectorArt = () => {
     return (
         <div className="wrapper">
             <div className="gridThree">
@@ -17,4 +17,4 @@ const Animals = () => {
     );
 };
 
-export default Animals;
+export default VectorArt;
