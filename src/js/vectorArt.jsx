@@ -3,7 +3,7 @@ import React from 'react';
 const VectorArt = () => {
     return (
         <div className="wrapper">
-            <div className="gridThree">
+            <div className="gridOne">
                 <div className="imgBox">
                     <img
                         src="./images/VectorCover.png"
