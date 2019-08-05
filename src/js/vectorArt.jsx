@@ -6,11 +6,11 @@ const VectorArt = () => {
             <div className="gridThree">
                 <div className="imgBox">
                     <img
-                        src="./images/Animals/Tiger.png"
+                        src="./images/VectorCover.png"
                         className="topicImage"
-                        alt="Tiger"
+                        alt="Mermaids"
                     />
-                    <h2>Placeholder</h2>
+                    <h2>Mermaids</h2>
                 </div>
             </div>
         </div>

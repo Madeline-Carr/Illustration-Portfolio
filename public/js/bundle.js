@@ -35465,10 +35465,10 @@ var VectorArt = function VectorArt() {
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "./images/Animals/Tiger.png",
+    src: "./images/VectorCover.png",
     className: "topicImage",
-    alt: "Tiger"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Placeholder"))));
+    alt: "Mermaids"
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Mermaids"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (VectorArt);
