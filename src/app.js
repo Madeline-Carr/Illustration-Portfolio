@@ -17,7 +17,7 @@ const App = () => {
                 <Header />
                 <main className="content">
                     <Switch>
-                        <Route path="/vectorArt" component={VectorArt} />
+                        <Route path="/vector-art" component={VectorArt} />
                         <Route path="/animals" component={Animals} />
                         <Route path="/history" component={History} />
                         <Route path="/about-me" component={AboutMe} />
