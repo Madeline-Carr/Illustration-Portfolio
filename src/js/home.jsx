@@ -49,7 +49,7 @@ const Home = () => {
                     />
                     <h2>Traditional Art</h2>
                     <h3>2018-2019</h3>
-                    <p>Coming Soon</p>
+                    <p class="gray">Coming Soon</p>
                 </div>
             </div>
         </div>

@@ -24889,7 +24889,7 @@ var App = function App() {
   return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["HashRouter"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_js_header__WEBPACK_IMPORTED_MODULE_3__["default"], null), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("main", {
     className: "content"
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Switch"], null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
-    path: "/vectorArt",
+    path: "/vector-art",
     component: _js_vectorArt__WEBPACK_IMPORTED_MODULE_10__["default"]
   }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react_router_dom__WEBPACK_IMPORTED_MODULE_1__["Route"], {
     path: "/animals",
@@ -35315,7 +35315,9 @@ var Home = function Home() {
     src: "./images/TraditionalCover.png",
     className: "topicImage",
     alt: "Girl in Wolf Costume"
-  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Traditional Art"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018-2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Coming Soon"))));
+  }), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "Traditional Art"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h3", null, "2018-2019"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
+    "class": "gray"
+  }, "Coming Soon"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (Home);
@@ -35442,7 +35444,7 @@ var AboutMe = function AboutMe() {
     alt: "Portrait Icon"
   })), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
     className: "imgBox"
-  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "Hello! My name is Madeline Carr, I am a graduate of Virgina Commonwealth University. I like to experiment with different styles of illustration in order to improve my understanding of the world. Most of my work is vector illustrations which I like because it helps me think about shapes. I am working to become a web developer. I hope you enjoy my portfolio!"))));
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("h2", null, "About Me"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, " Hello!"), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", null, "My name is Madeline Carr, I am a graduate of Virgina Commonwealth University. I like to experiment with different styles of illustration in order to improve my understanding of the world. Most of my work is vector illustrations which I like because it helps me think about shapes. I am working to become a web developer. I hope you enjoy my portfolio!"))));
 };
 
 /* harmony default export */ __webpack_exports__["default"] = (AboutMe);

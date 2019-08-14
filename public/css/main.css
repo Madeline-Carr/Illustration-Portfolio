@@ -31,7 +31,10 @@ a {
   text-decoration: none;
   color: #fff; }
   a:hover {
-    color: #01978b; }
+    color: #00ac9d; }
+
+.gray {
+  color: #999; }
 
 .gridOne {
   display: grid;

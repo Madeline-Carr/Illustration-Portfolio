@@ -24,7 +24,6 @@ header {
         padding: 10px;
         font-size: 3em;
     }
-
     //Navigation
 
     nav {
@@ -46,6 +45,10 @@ a {
     &:hover {
         color: $light-green;
     }
+}
+
+.gray {
+    color: $light-gray;
 }
 .gridOne {
     display: grid;
