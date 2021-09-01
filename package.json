@@ -52,6 +52,6 @@
         "react-fontawesome": "^1.6.1",
         "react-native-svg": "^9.5.1",
         "react-router-dom": "^5.0.1",
-        "tar": "^4.4.2"
+        "tar": "^4.4.18"
     }
 }
